@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #ffffff;
+  background-color: #01579B;;
+  margin: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100px;
+}
+span {
+  color: aquamarine;
+  padding-left: 10px;
+}
+
+div{
+  width: 50%;
+  height: 100%;
+  margin: 50;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
