@@ -5,49 +5,61 @@
 }
 
 body {
-  background-color: #0f172a; 
+  background-color: #17274e;
   display: flex;
   justify-content: center;
-  font-family: system-ui, -apple-system, sans-serif;
-  padding: 20px 0; 
+  font-family:
+    roboto,
+    -apple-system,
+    sans-serif;
+    
+  padding: 20px 0;
 }
 
-
 div {
-  width: 100%; 
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: aliceblue;
 }
-
 
 h1 {
   background-color: #1e293b;
-  color: #f8fafc;
+  color: #2a2626;
   margin: 6px 0;
   border-radius: 8px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  width: 90%; 
-  height: 80px; 
-  font-size: 1.2rem; 
+
+  width: 90%;
+  height: 80px;
+  font-size: 1.2rem;
   text-align: center;
+  background-image: url("resources/picture.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: space ;
+  
 }
 
 span {
-  color: #38bdf8;
+  color: #090d10;
   padding-left: 10px;
 }
 
-
 @media (min-width: 768px) {
   h1 {
-    
-    width: 600px; 
+    width: 600px;
     height: 100px;
-    font-size: 2rem; 
+    font-size: 2rem;
   }
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 12px; 
+  margin-left: 12px;
 }
